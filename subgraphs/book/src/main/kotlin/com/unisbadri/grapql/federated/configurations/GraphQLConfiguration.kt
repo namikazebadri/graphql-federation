@@ -1,4 +1,4 @@
-package com.unisbadri.grapql.federated
+package com.unisbadri.grapql.federated.configurations
 
 import com.apollographql.federation.graphqljava.Federation
 import com.apollographql.federation.graphqljava.tracing.FederatedTracingInstrumentation
@@ -11,7 +11,6 @@ import org.springframework.boot.autoconfigure.graphql.GraphQlSourceBuilderCustom
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.graphql.execution.GraphQlSource.SchemaResourceBuilder
-import org.springframework.graphql.execution.RuntimeWiringConfigurer
 
 @Configuration
 class GraphQLConfiguration {

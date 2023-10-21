@@ -1,4 +1,4 @@
-package com.unisbadri.grapql.federated
+package com.unisbadri.grapql.federated.configurations
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

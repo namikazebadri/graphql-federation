@@ -1,8 +1,8 @@
-package com.unisbadri.grapql.federated
+package com.unisbadri.grapql.federated.factories
 
 import com.unisbadri.grapql.federated.models.Book
 
-class Data {
+class DataFactory {
     companion object {
         fun generateBooks(): List<Book> {
             return listOf(

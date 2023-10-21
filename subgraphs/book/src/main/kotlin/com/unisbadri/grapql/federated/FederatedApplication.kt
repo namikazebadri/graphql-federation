@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class FederatedApplication
 
 fun main(args: Array<String>) {
-	runApplication<FederatedApplication>(*args)
+    runApplication<FederatedApplication>(*args)
 }

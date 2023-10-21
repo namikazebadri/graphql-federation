@@ -1,4 +1,4 @@
-package com.unisbadri.grapql.federated
+package com.unisbadri.grapql.federated.controllers
 
 import com.unisbadri.grapql.federated.models.Book
 import org.springframework.graphql.data.method.annotation.Argument
