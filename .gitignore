@@ -1,1 +1,7 @@
 ./router
+.idea
+router
+package-lock.json
+.pdm-python
+gradle
+pdm.lock
