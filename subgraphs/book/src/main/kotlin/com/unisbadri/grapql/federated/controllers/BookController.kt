@@ -12,7 +12,7 @@ class BookController {
 
     @QueryMapping
     fun book(@Argument id: Int): Book? {
-        return books[0]
+        return books.stream().filter { book -> book.id == id }.findFirst().get()
     }
 
     @QueryMapping
