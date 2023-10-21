@@ -1,0 +1,12 @@
+directive @tag(name: String!) repeatable on FIELD_DEFINITION
+
+type Query {
+    allEmployees: [Employee]
+    employee(name: ID!): Employee
+}
+
+type Employee {
+    id: ID!
+    name: String!
+    address: String @tag(name: "nom-nom-nom")
+}

@@ -1,0 +1,12 @@
+directive @tag(name: String!) repeatable on FIELD_DEFINITION
+
+type Query {
+    allShelves: [Shelf]
+    shelf(name: ID!): Shelf
+}
+
+type Shelf {
+    id: ID!
+    name: String
+    description: String @tag(name: "nom-nom-nom")
+}
