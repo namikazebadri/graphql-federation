@@ -4,8 +4,8 @@ const { readFileSync } = require('fs');
 const port = process.env.APOLLO_PORT || 4200;
 
 const pandas = [
-    {id: 1, name: 'Ruby in Action', description: "IT Book" },
-    {is: 2, name: 'Harry Potter and The Hagrid', description: "Novel book" }
+    {id: 1, name: 'IT Books', description: "IT book shelf." },
+    {is: 2, name: 'Novel Books', description: "Novel book shelf." }
 ]
 
 const typeDefs = gql(readFileSync('./shelf.graphql', { encoding: 'utf-8' }));
