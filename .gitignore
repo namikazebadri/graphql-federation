@@ -5,3 +5,4 @@ package-lock.json
 .pdm-python
 gradle
 pdm.lock
+supergraph.graphql
