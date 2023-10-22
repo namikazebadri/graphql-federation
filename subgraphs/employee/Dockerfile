@@ -6,7 +6,7 @@ COPY package.json .
 
 RUN npm install
 
-COPY pandas.js .
-COPY pandas.graphql .
+COPY index.js .
+COPY employee.graphql .
 
-CMD [ "node", "pandas.js" ]
+CMD [ "node", "index.js" ]
