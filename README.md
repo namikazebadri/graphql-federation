@@ -29,7 +29,13 @@ curl -sSL https://rover.apollo.dev/nix/latest | sh
 curl -sSL https://router.apollo.dev/download/nix/latest | sh
 ```
 
-# Running
+# Running This Project
+
+To run this project you can do these steps:
+
+1. Composing `supergraph` file using **Rover**.
+2. Running **Router** with `supergraph` file produced in step 1.
+3. Run GraphQL APIs as `subgraph`.
 
 ## Supergraph Composition
 
@@ -72,7 +78,7 @@ or using executable script in this project:
 
 Then you can open your router dashboard with this url: `http://localhost:4000`
 
-# Running GraphQL APIs
+## Running GraphQL APIs
 
 The next step is running all graphql apis federated to this federation as specified in `supergraph.yaml`. 
 In this repository, graphql apis as subgraph is defined in subgraph directory. 
