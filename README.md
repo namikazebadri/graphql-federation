@@ -1,7 +1,7 @@
 # GraphQL Federation
 
 This project name is **Library Manager**, consists of 4 microservices which exposing its API in GraphQL. 
-These microservices will sit behind Apollo Router and act as federated GraphQL API. The names of the microservices as follows:
+These microservices will sit behind Apollo Router and act as federated GraphQL APIs. The names of the microservices as follows:
 
 1. User (this microservice will handle user/member/visitor related logic)
 2. Employee (this microservice will handle employee related logic)
