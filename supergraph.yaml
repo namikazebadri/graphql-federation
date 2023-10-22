@@ -4,15 +4,23 @@ subgraphs:
     routing_url: http://localhost:4100
     schema:
       file: ./subgraphs/employee/employee.graphql
+      # Use field below if you choose to get schema with introspection to subgraph
+      # subgraph_url: http://localhost:4100/graphql
   shelf:
     routing_url: http://localhost:4200/graphql
     schema:
       file: ./subgraphs/shelf/shelf.graphql
+      # Use field below if you choose to get schema with introspection to subgraph
+      # subgraph_url: http://localhost:4200/graphql
   user:
     routing_url: http://localhost:4300/graphqls
     schema:
       file: ./subgraphs/user/user.graphqls
+      # Use field below if you choose to get schema with introspection to subgraph
+      # subgraph_url: http://localhost:4300/graphql
   book:
     routing_url: http://localhost:4400/graphql
     schema:
       file: ./subgraphs/book/src/main/resources/graphql/book.graphqls
+      # Use field below if you choose to get schema with introspection to subgraph
+      # subgraph_url: http://localhost:4400/graphql
