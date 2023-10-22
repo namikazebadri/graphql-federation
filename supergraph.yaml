@@ -6,21 +6,29 @@ subgraphs:
       file: ./subgraphs/employee/employee.graphql
       # Use field below if you choose to get schema with introspection to subgraph
       # subgraph_url: http://localhost:4100/graphql
+      # introspection_headers: # Optional headers to include in introspection request
+        # Authorization: Bearer ${env.SUPERGRAPH_AUTH_TOKEN}
   shelf:
     routing_url: http://localhost:4200/graphql
     schema:
       file: ./subgraphs/shelf/shelf.graphql
       # Use field below if you choose to get schema with introspection to subgraph
       # subgraph_url: http://localhost:4200/graphql
+      # introspection_headers: # Optional headers to include in introspection request
+      # Authorization: Bearer ${env.SUPERGRAPH_AUTH_TOKEN}
   user:
     routing_url: http://localhost:4300/graphqls
     schema:
       file: ./subgraphs/user/user.graphqls
       # Use field below if you choose to get schema with introspection to subgraph
       # subgraph_url: http://localhost:4300/graphql
+      # introspection_headers: # Optional headers to include in introspection request
+      # Authorization: Bearer ${env.SUPERGRAPH_AUTH_TOKEN}
   book:
     routing_url: http://localhost:4400/graphql
     schema:
       file: ./subgraphs/book/src/main/resources/graphql/book.graphqls
       # Use field below if you choose to get schema with introspection to subgraph
       # subgraph_url: http://localhost:4400/graphql
+      # introspection_headers: # Optional headers to include in introspection request
+      # Authorization: Bearer ${env.SUPERGRAPH_AUTH_TOKEN}
