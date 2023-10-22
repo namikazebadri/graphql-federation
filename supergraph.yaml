@@ -1,17 +1,17 @@
 federation_version: 2
 subgraphs:
-#  employee:
-#    routing_url: http://localhost:4100
-#    schema:
-#      file: http://localhost:4100
-#  shelf:
-#    routing_url: http://localhost:4200/graphql
-#    schema:
-#      file: http://localhost:4200/graphql
-#  user:
-#    routing_url: http://localhost:4300/graphql
-#    schema:
-#      file: http://localhost:4300/graphql
+  employee:
+    routing_url: http://localhost:4100
+    schema:
+      file: ./subgraphs/employee/employee.graphqls
+  shelf:
+    routing_url: http://localhost:4200/graphql
+    schema:
+      file: ./subgraphs/shelf/shelf.graphql
+  user:
+    routing_url: http://localhost:4300/graphql
+    schema:
+      file: ./subgraphs/user/user.graphqls
   book:
     routing_url: http://localhost:4400/graphql
     schema:
